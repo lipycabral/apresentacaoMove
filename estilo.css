@@ -3,8 +3,9 @@ html, body, .corpo-principal {
 }
 
 body {
-	background: url('imagens/capa.png'),
-				url('imagens/ruido.png');
+	background: url('imagens/capa2.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg,#4038bc,#4f48ba) ;
 	background-attachment: fixed;
 	background-position: center center;
     background-attachment: fixed;
@@ -71,9 +72,10 @@ h5{
 }
 #sobre{
 	background: white;
-	padding-top: 20px;
+	padding-top: 60px;
 }
 .rotacao{
+	padding-top: 60px;
 	padding-left: 100px;
 	transform: rotate(15deg);
 	-ms-transform: rotate(15deg); /* IE 9 */
