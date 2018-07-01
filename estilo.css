@@ -4,9 +4,14 @@ html, body, .corpo-principal {
 
 body {
 	background: url('imagens/capa.png'),
-				url('imagens/ruido.png'),
-				linear-gradient(50deg,#4038bc,#c7ff06);
+				url('imagens/ruido.png');
 	background-attachment: fixed;
+	background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	font-family: Helvetica,Arial,sans-serif;
 	overflow-x: hidden;
 }
