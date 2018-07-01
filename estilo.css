@@ -24,27 +24,6 @@ body {
 	background-size: contain;
 	color: transparent;
 }
-
-nav.navbar-transparente {
-	padding: 15px 0px;
-	background: rgba(0, 0, 0, 0.6);
-	border: none;
-}
-
-.navbar-brand{
-	padding: 5px 15px;
-}
-
-
-.navbar-inverse .navbar-nav>li>a {
-	color: white;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: #9bf0e1;
-}
-
-/* -- Imagem de capa -- */
 .corpo-principal {
 	display: table;
 	width: 100%;
@@ -115,4 +94,28 @@ h5{
 #equipe h4{
 	color: white;
 	text-align: center;
+}
+
+
+
+
+
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
 }
